@@ -66,9 +66,6 @@ public class Client {
         private LocalDateTime createdAt;
         private LocalDateTime updatedAt;
 
-        private ClientBuilder() {
-        }
-
         public static ClientBuilder aClient() {
             return new ClientBuilder();
         }
